@@ -6,9 +6,11 @@ import RealisticShark from './realistic-shark'
 import { useLanguage } from './language-provider'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import { useTranslations } from 'next-intl';
 
 export default function HeroSection() {
-  const { t, language } = useLanguage()
+  const { t, language } = useLanguage();
+  const t1 = useTranslations('nav');
   const isRTL = language === 'ar'
 
   const [dotsStyle, setDotsStyle] = useState({});
@@ -42,6 +44,8 @@ export default function HeroSection() {
         ))}
       </div>
 
+
+
       <div className="relative container mx-auto space-x-4 py-20 ">
         <div className={`grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[80vh] ${isRTL ? 'lg:grid-flow-col-dense' : ''}`}>
 
@@ -52,7 +56,7 @@ export default function HeroSection() {
               <div className={`inline-flex items-center px-4 md:px-6 py-2 md:py-3 bg-gradient-to-r from-blue-100 to-orange-100 dark:from-blue-900/30 dark:to-orange-900/30 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium hover:scale-105 transition-all duration-300 cursor-pointer shadow-lg dark:shadow-blue-500/10 ${isRTL ? 'font-arabic' : ''}`}>
                 {t('hero.badge')}
               </div>
-
+              <div>{t1('home')}</div>
               {/* Title */}
               <h1 className={`text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-blue-900 dark:text-blue-100 leading-tight text-center sm:text-left ${isRTL ? 'font-arabic-bold' : ''}`}>
                 <span className="block animate-fade-in-up">{t('hero.title')}</span>

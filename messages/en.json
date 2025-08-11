@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "trial": "Start Free Trial",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "hero": {
+    "badge": "🚀 Transform Your Teaching Into Profit",
+    "title": "Dive Deep Into",
+    "titleHighlight": "Online Education",
+    "description": "E Shark empowers teachers and educators to create, sell, and manage online courses with AI-powered tools, comprehensive student management, and everything you need to build a thriving educational business.",
+    "startTrial": "Start Free Trial",
+    "watchDemo": "Watch Demo",
+    "educators": "Active Educators",
+    "students": "Students Enrolled",
+    "revenue": "Revenue Generated"
+  },
+  "stats": {
+    "educators": "Active Educators",
+    "courses": "Courses Created",
+    "students": "Students Enrolled",
+    "revenue": "Revenue Generated"
+  },
+  "features": {
+    "title": "Everything You Need to Succeed",
+    "description": "From course creation to student management, E Shark provides all the tools educators need to build and scale their online teaching business.",
+    "courseCreation": "Course Creation Studio",
+    "courseCreationDesc": "Build engaging courses with our intuitive drag-and-drop editor, multimedia support, and interactive elements.",
+    "studentManagement": "Student Management",
+    "studentManagementDesc": "Track progress, manage enrollments, and communicate with students through our comprehensive dashboard.",
+    "aiAssistant": "AI Teaching Assistant",
+    "aiAssistantDesc": "Leverage AI to create quizzes, generate content suggestions, and provide personalized learning paths.",
+    "revenue": "Revenue Optimization",
+    "revenueDesc": "Maximize earnings with flexible pricing models, discount codes, and automated marketing tools.",
+    "analytics": "Analytics & Insights",
+    "analyticsDesc": "Make data-driven decisions with detailed analytics on student engagement and course performance.",
+    "security": "Secure & Reliable",
+    "securityDesc": "Enterprise-grade security with 99.9% uptime guarantee and automatic backups."
+  },
+  "testimonials": {
+    "title": "Loved by Educators Worldwide",
+    "description": "Join thousands of successful educators who have transformed their teaching into thriving online businesses with E Shark.",
+    "sarah": {
+      "name": "Sarah Johnson",
+      "role": "Math Teacher",
+      "content": "E Shark transformed my teaching career. I went from struggling to make ends meet to earning $5,000/month from my online courses!"
+    },
+    "michael": {
+      "name": "Michael Chen",
+      "role": "Programming Instructor",
+      "content": "The AI tools are incredible. They help me create quizzes and content in minutes instead of hours. My students love the interactive features."
+    },
+    "emily": {
+      "name": "Emily Rodriguez",
+      "role": "Language Coach",
+      "content": "Student management has never been easier. I can track progress, send personalized feedback, and manage hundreds of students effortlessly."
+    }
+  },
+  "about": {
+    "title": "About E Shark",
+    "subtitle": "Empowering Educators Worldwide",
+    "description": "We're on a mission to empower educators worldwide by providing them with the tools they need to transform their knowledge into profitable online businesses.",
+    "mission": "Our Mission",
+    "missionDesc": "To democratize education by giving every teacher and educator the power to create, sell, and manage online courses with cutting-edge AI technology and comprehensive student management tools.",
+    "vision": "Our Vision",
+    "visionDesc": "A world where quality education is accessible to everyone, and passionate educators can build sustainable businesses around their expertise while making a meaningful impact on learners globally.",
+    "values": "Our Values",
+    "educatorFirst": "Educator-First",
+    "educatorFirstDesc": "Every feature we build is designed with educators in mind, ensuring they have the best tools to succeed.",
+    "quality": "Quality Excellence",
+    "qualityDesc": "We maintain the highest standards in our platform to ensure exceptional learning experiences.",
+    "innovation": "Innovation",
+    "innovationDesc": "We continuously innovate with AI and modern technology to stay ahead of educational trends.",
+    "team": "Built by Educators, for Educators",
+    "teamDesc": "Our team combines decades of educational experience with cutting-edge technology expertise to create the most comprehensive LMS platform for modern educators."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to transform your teaching into a thriving online business? We're here to help you get started with E Shark.",
+    "sendMessage": "Send us a Message",
+    "info": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Business Hours",
+    "hoursValue": "Mon - Fri: 9:00 AM - 6:00 PM EST",
+    "quickSupport": "Quick Support",
+    "quickSupportDesc": "Need immediate assistance? Check out our help center or schedule a demo.",
+    "scheduleDemo": "Schedule a Demo",
+    "helpCenter": "Visit Help Center",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company/Organization",
+      "inquiry": "Inquiry Type",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "inquiryRequired": "Please select an inquiry type",
+      "messageRequired": "Message is required",
+      "success": "Message sent successfully!",
+      "successDesc": "We'll get back to you within 24 hours."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Teaching?",
+    "description": "Join thousands of educators who are already building successful online businesses with E Shark. Start your journey today!",
+    "trial": "14-day free trial",
+    "noFees": "No setup fees",
+    "cancel": "Cancel anytime",
+    "support": "24/7 support",
+    "startTrial": "Start Free Trial",
+    "scheduleDemo": "Schedule Demo"
+  },
+  "footer": {
+    "company": "Company",
+    "product": "Product",
+    "support": "Support",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "api": "API",
+    "blog": "Blog",
+    "careers": "Careers",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "community": "Community",
+    "status": "Status",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "© 2024 E Shark. All rights reserved.",
+    "description": "Empowering educators worldwide to transform their teaching into profitable online businesses."
+  },
+  "chat": {
+    "title": "Chat Support",
+    "subtitle": "How can we help you today?",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "online": "We're online",
+    "offline": "We'll get back to you soon",
+    "welcome": "Hello! How can I help you today?",
+    "response": "Thank you for reaching out! One of our customer service representatives will get back to you shortly."
+  }
+}
