@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { TrendingUp, Users, BookOpen, DollarSign } from 'lucide-react'
-import { useLanguage } from './language-provider'
+import { useTranslations } from 'next-intl';
+
 
 function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
   const [count, setCount] = useState(0)
@@ -34,35 +35,36 @@ function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
 }
 
 export default function StatsSection() {
-  const { t, language } = useLanguage()
+
+  const t = useTranslations('stats')
 
   const stats = [
     {
       icon: Users,
       value: 10000,
       suffix: '+',
-      label: t('stats.educators'),
+      label: t('educators'),
       color: 'text-blue-600 dark:text-blue-400'
     },
     {
       icon: BookOpen,
       value: 50000,
       suffix: '+',
-      label: t('stats.courses'),
+      label: t('courses'),
       color: 'text-orange-600 dark:text-orange-400'
     },
     {
       icon: Users,
       value: 500000,
       suffix: '+',
-      label: t('stats.students'),
+      label: t('students'),
       color: 'text-blue-600 dark:text-blue-400'
     },
     {
       icon: DollarSign,
       value: 2000000,
       suffix: '+',
-      label: t('stats.revenue'),
+      label: t('revenue'),
       color: 'text-orange-600 dark:text-orange-400'
     }
   ]
@@ -77,7 +79,7 @@ export default function StatsSection() {
       <div className="container mx-auto px-4 relative">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
-            <div 
+            <div
               key={index}
               className="text-center group hover:scale-110 transition-all duration-500 cursor-pointer"
             >
@@ -86,14 +88,10 @@ export default function StatsSection() {
                   <stat.icon className="w-8 h-8 text-white" />
                 </div>
               </div>
-              <div className={`text-3xl lg:text-4xl font-bold text-white mb-2 group-hover:text-orange-200 transition-colors ${
-                language === 'ar' ? 'font-arabic-bold' : ''
-              }`}>
+              <div className={`text-3xl lg:text-4xl font-bold text-white mb-2 group-hover:text-orange-200 transition-colors  `}>
                 <AnimatedCounter value={stat.value} suffix={stat.suffix} />
               </div>
-              <div className={`text-blue-100 dark:text-blue-200 text-sm lg:text-base group-hover:text-white transition-colors ${
-                language === 'ar' ? 'font-arabic' : ''
-              }`}>
+              <div className={`text-blue-100 dark:text-blue-200 text-sm lg:text-base group-hover:text-white transition-colors  `}>
                 {stat.label}
               </div>
             </div>

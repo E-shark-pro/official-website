@@ -5,12 +5,12 @@ import EnhancedNavigation from '@/components/enhanced-navigation'
 import Footer from '@/components/footer'
 import ChatSupport from '@/components/chat-support'
 import { Toaster } from '@/components/ui/toaster'
-import { LanguageProvider } from '@/components/language-provider'
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import { getLocale } from 'next-intl/server';
+import { getLocale, getMessages } from 'next-intl/server';
 import { getLangDir } from 'rtl-detect';
+import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -81,20 +81,33 @@ export default async function RootLayout({
     notFound();
   }
   const direction = getLangDir(locale);
+  const messages1 = await getMessages()
+  console.log(messages1, "messages1");
+  console.log(messages, "messages");
+
 
   return (
-    <html lang={locale} dir={direction} className={`${inter.variable} ${cairo.variable}`}>
-      <body className={`${inter.className} antialiased`}>
-        <LanguageProvider>
-          <EnhancedNavigation />
-          <main className="pt-20">
-            <NextIntlClientProvider locale={locale} messages={messages}>{children}</NextIntlClientProvider>
+    <html lang={locale} dir={direction} className={`${inter.variable} ${cairo.variable}`} suppressHydrationWarning >
+      <body className={`${inter.className} antialiased `}>
 
-          </main>
-          <Footer />
-          <ChatSupport />
-          <Toaster />
-        </LanguageProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NextIntlClientProvider locale={locale} messages={messages}>
+
+            <main className={`lg:pt-20 ${locale === 'ar' ? 'font-arabic' : 'font-english'}`}>
+              <EnhancedNavigation />
+              {children}
+
+            </main>
+            <Footer />
+            <ChatSupport />
+            <Toaster />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

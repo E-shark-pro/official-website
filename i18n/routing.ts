@@ -5,5 +5,34 @@ export const routing = defineRouting({
     locales: ['en', 'ar'],
 
     // Used when no locale matches
-    defaultLocale: 'en'
+    defaultLocale: 'en',
+
+    // pathnames: {
+    //     "/": {
+    //         en: "/",
+    //         ar: "/"
+    //     },
+    //     "/about": {
+    //         en: "/about",
+    //         ar: "/حولنا"
+    //     },
+    //     "/contact": {
+    //         en: "/contact",
+    //         ar: "/تواصل-معنا"
+    //     },
+    // }
+    pathnames: {
+        "/": {
+            en: "/",
+            ar: "/"
+        },
+        "/about": {
+            en: "/about",
+            ar: "/about"
+        },
+        "/contact": {
+            en: "/contact",
+            ar: "/contact"
+        },
+    }
 });

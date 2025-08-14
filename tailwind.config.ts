@@ -29,6 +29,10 @@ const config: Config = {
           DEFAULT: "var(--primary)",
           foreground: "hsl(var(--primary-foreground))",
         },
+        third: {
+          DEFAULT: "var(--third)",
+
+        },
         primaryLight: "var(--primary-light)",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -69,10 +73,15 @@ const config: Config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        marquee: {
+          to: { transform: 'translateX(-50%)' }
+        }
       },
       animation: {
+        marquee: 'marquee var(--duration, 30s) linear infinite',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+
       },
     },
   },

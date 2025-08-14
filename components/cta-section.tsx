@@ -1,16 +1,17 @@
 'use client'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, CheckCircle } from 'lucide-react'
-import { useLanguage } from './language-provider'
+
+import { useTranslations } from 'next-intl'
 
 export default function CTASection() {
-  const { t } = useLanguage()
 
+  const t = useTranslations('cta')
   const benefits = [
-    t('cta.trial'),
-    t('cta.noFees'),
-    t('cta.cancel'),
-    t('cta.support')
+    t('trial'),
+    t('noFees'),
+    t('cancel'),
+    t('support')
   ]
 
   return (
@@ -25,10 +26,10 @@ export default function CTASection() {
       <div className="container mx-auto px-4 text-center relative">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 animate-fade-in-up">
-            {t('cta.title')}
+            {t('title')}
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-300">
-            {t('cta.description')}
+            {t('description')}
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mb-8 animate-fade-in-up animation-delay-600">
@@ -43,17 +44,17 @@ export default function CTASection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-900">
             <Button
               size="lg"
-              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
+              className="bg-white text-primary hover:bg-gray-100 px-8 py-4 text-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl group"
             >
-              {t('cta.startTrial')}
+              {t('startTrial')}
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
               variant="outline"
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="border-2 border-white text-primary hover:bg-white hover:text-primary px-8 py-4 text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
-              {t('cta.scheduleDemo')}
+              {t('scheduleDemo')}
             </Button>
           </div>
         </div>

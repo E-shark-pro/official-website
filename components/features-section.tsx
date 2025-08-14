@@ -1,56 +1,58 @@
 'use client';
 import { BookOpen, Users, Brain, DollarSign, BarChart3, Shield } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { useLanguage } from './language-provider'
+
+import { useTranslations } from 'next-intl';
 
 export default function FeaturesSection() {
-  const { t } = useLanguage()
+
+  const t = useTranslations('features')
 
   const features = [
     {
       icon: BookOpen,
-      title: t('features.courseCreation'),
-      description: t('features.courseCreationDesc'),
+      title: t('courseCreation'),
+      description: t('courseCreationDesc'),
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
       hoverColor: 'hover:bg-blue-100'
     },
     {
       icon: Users,
-      title: t('features.studentManagement'),
-      description: t('features.studentManagementDesc'),
+      title: t('studentManagement'),
+      description: t('studentManagementDesc'),
       color: 'text-orange-600',
       bgColor: 'bg-orange-50',
       hoverColor: 'hover:bg-orange-100'
     },
     {
       icon: Brain,
-      title: t('features.aiAssistant'),
-      description: t('features.aiAssistantDesc'),
+      title: t('aiAssistant'),
+      description: t('aiAssistantDesc'),
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
       hoverColor: 'hover:bg-blue-100'
     },
     {
       icon: DollarSign,
-      title: t('features.revenue'),
-      description: t('features.revenueDesc'),
+      title: t('revenue'),
+      description: t('revenueDesc'),
       color: 'text-orange-600',
       bgColor: 'bg-orange-50',
       hoverColor: 'hover:bg-orange-100'
     },
     {
       icon: BarChart3,
-      title: t('features.analytics'),
-      description: t('features.analyticsDesc'),
+      title: t('analytics'),
+      description: t('analyticsDesc'),
       color: 'text-blue-600',
       bgColor: 'bg-blue-50',
       hoverColor: 'hover:bg-blue-100'
     },
     {
       icon: Shield,
-      title: t('features.security'),
-      description: t('features.securityDesc'),
+      title: t('security'),
+      description: t('securityDesc'),
       color: 'text-orange-600',
       bgColor: 'bg-orange-50',
       hoverColor: 'hover:bg-orange-100'
@@ -67,10 +69,10 @@ export default function FeaturesSection() {
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-3xl md:text-5xl font-bold text-blue-900 mb-6">
-            {t('features.title')}
+            {t('title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t('features.description')}
+            {t('description')}
           </p>
         </div>
 

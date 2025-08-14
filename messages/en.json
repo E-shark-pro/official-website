@@ -10,8 +10,8 @@
   },
   "hero": {
     "badge": "🚀 Transform Your Teaching Into Profit",
-    "title": "Dive Deep Into",
-    "titleHighlight": "Online Education",
+    "title": "Transform Teaching",
+    "titleHighlight": "into a Business",
     "description": "E Shark empowers teachers and educators to create, sell, and manage online courses with AI-powered tools, comprehensive student management, and everything you need to build a thriving educational business.",
     "startTrial": "Start Free Trial",
     "watchDemo": "Watch Demo",
@@ -26,8 +26,10 @@
     "revenue": "Revenue Generated"
   },
   "features": {
-    "title": "Everything You Need to Succeed",
-    "description": "From course creation to student management, E Shark provides all the tools educators need to build and scale their online teaching business.",
+    "title": "What we're offer",
+    "description": "LMS Platform + AI Learning Tools + Student Management",
+    "everythingToSucceed": "Everything You Need to Succeed",
+    "everythingToSucceedDesc": "From course creation to student management, E Shark provides all the tools educators need to build and scale their online teaching business.",
     "courseCreation": "Course Creation Studio",
     "courseCreationDesc": "Build engaging courses with our intuitive drag-and-drop editor, multimedia support, and interactive elements.",
     "studentManagement": "Student Management",
@@ -42,33 +44,55 @@
     "securityDesc": "Enterprise-grade security with 99.9% uptime guarantee and automatic backups."
   },
   "testimonials": {
-    "title": "Loved by Educators Worldwide",
-    "description": "Join thousands of successful educators who have transformed their teaching into thriving online businesses with E Shark.",
-    "sarah": {
-      "name": "Sarah Johnson",
-      "role": "Math Teacher",
-      "content": "E Shark transformed my teaching career. I went from struggling to make ends meet to earning $5,000/month from my online courses!"
-    },
-    "michael": {
-      "name": "Michael Chen",
-      "role": "Programming Instructor",
-      "content": "The AI tools are incredible. They help me create quizzes and content in minutes instead of hours. My students love the interactive features."
-    },
-    "emily": {
-      "name": "Emily Rodriguez",
-      "role": "Language Coach",
-      "content": "Student management has never been easier. I can track progress, send personalized feedback, and manage hundreds of students effortlessly."
-    }
+    "title": "What Our Users Say",
+    "description": "Honest words from people who trust our software every day.",
+    "items": [
+      {
+        "name": "Ahmed Mostafa",
+        "role": "Teacher",
+        "content": "Honestly, I didn’t think it would make such a big difference, but now I can finish my work in half the time. You really impressed me."
+      },
+      {
+        "name": "Sara El-Sayed",
+        "role": "Small Business Owner",
+        "content": "You guys saved me a lot of headaches. Everything works smoothly and I don’t have to chase after problems anymore."
+      },
+      {
+        "name": "Omar Hassan",
+        "role": "Marketing Manager",
+        "content": "The way you handled our requests was amazing. It feels like the software was built just for us."
+      },
+      {
+        "name": "Mona Adel",
+        "role": "University Lecturer",
+        "content": "I can finally manage my students without stress. The platform makes everything organized and easy to follow."
+      },
+      {
+        "name": "Youssef Ibrahim",
+        "role": "Startup CEO",
+        "content": "At first, I was just trying it out, but now it’s part of our daily workflow. Great job, team!"
+      },
+      {
+        "name": "Nour Khaled",
+        "role": "Project Coordinator",
+        "content": "I appreciate how responsive you are. Every time we had a question, you were there to help right away."
+      }
+    ]
   },
   "about": {
     "title": "About E Shark",
     "subtitle": "Empowering Educators Worldwide",
-    "description": "We're on a mission to empower educators worldwide by providing them with the tools they need to transform their knowledge into profitable online businesses.",
+    "description": "We specialize in creating powerful software solutions that help businesses scale efficiently and sustainably — saving time, reducing costs, and driving growth.",
+    "missionEdu": "Mission In Education",
+    "missionEduDesc": "We're on a mission to empower educators worldwide by providing them with the tools they need to transform their knowledge into profitable online businesses.",
+    "whoWeAre": "Who We Are?",
+    "whoWeAreDesc": "We specialize in creating powerful software solutions that help businesses scale efficiently and sustainably — saving time, reducing costs, and driving growth.",
     "mission": "Our Mission",
     "missionDesc": "To democratize education by giving every teacher and educator the power to create, sell, and manage online courses with cutting-edge AI technology and comprehensive student management tools.",
     "vision": "Our Vision",
     "visionDesc": "A world where quality education is accessible to everyone, and passionate educators can build sustainable businesses around their expertise while making a meaningful impact on learners globally.",
     "values": "Our Values",
+    "valuesDesc": "Our values define who we are and guide every decision we make — from how we build our platform to how we support our educators. We are committed to excellence, innovation, and putting our users first in everything we do.",
     "educatorFirst": "Educator-First",
     "educatorFirstDesc": "Every feature we build is designed with educators in mind, ensuring they have the best tools to succeed.",
     "quality": "Quality Excellence",
@@ -77,6 +101,119 @@
     "innovationDesc": "We continuously innovate with AI and modern technology to stay ahead of educational trends.",
     "team": "Built by Educators, for Educators",
     "teamDesc": "Our team combines decades of educational experience with cutting-edge technology expertise to create the most comprehensive LMS platform for modern educators."
+  },
+
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Let's answer some questions",
+    "categories": [
+      { "key": "web-dev", "label": "Web Development" },
+      { "key": "mobile-dev", "label": "Mobile Development" },
+      { "key": "ui-ux", "label": "UI/UX Design" },
+      { "key": "copywriting", "label": "Copywriting" }
+    ],
+    "items": [
+      {
+        "category": "web-dev",
+        "questions": [
+          {
+            "q": "What is web development?",
+            "a": "Web development is the process of building and maintaining websites. It involves a combination of client-side and server-side programming, database management, and other web-related technologies."
+          },
+          {
+            "q": "What programming languages are essential for web development?",
+            "a": "Essential languages for web development include HTML, CSS, and JavaScript for front-end development. For back-end development, popular languages include Python, Ruby, PHP, Java, and Node.js."
+          },
+          {
+            "q": "What's the difference between front-end and back-end development?",
+            "a": "Front-end development focuses on the user interface and user experience of a website, while back-end development deals with server-side logic, databases, and application integration."
+          },
+          {
+            "q": "How long does it typically take to develop a website?",
+            "a": "The time to develop a website can vary greatly depending on its complexity. A simple static website might take a few days, while a complex web application could take several months or even years."
+          },
+          {
+            "q": "What is responsive web design?",
+            "a": "Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures that websites are accessible and visually appealing across different platforms."
+          }
+        ]
+      },
+      {
+        "category": "mobile-dev",
+        "questions": [
+          {
+            "q": "What is mobile development?",
+            "a": "Mobile development is the process of creating software applications that run on mobile devices such as smartphones and tablets. It involves designing, coding, and testing applications for mobile operating systems like iOS and Android."
+          },
+          {
+            "q": "What's the difference between native and cross-platform mobile development?",
+            "a": "Native development involves building separate apps for each platform using platform-specific languages (Swift for iOS, Java/Kotlin for Android). Cross-platform development uses frameworks like React Native or Flutter to build a single codebase that works on multiple platforms."
+          },
+          {
+            "q": "What are some popular mobile app development frameworks?",
+            "a": "Popular mobile app development frameworks include React Native, Flutter, Xamarin, Ionic, and NativeScript. Each has its own strengths and is suited for different types of projects."
+          },
+          {
+            "q": "How do you ensure mobile app security?",
+            "a": "Mobile app security involves practices such as secure coding, data encryption, secure authentication methods, regular security audits, and staying up-to-date with the latest security patches and best practices."
+          },
+          {
+            "q": "What is the typical mobile app development lifecycle?",
+            "a": "The typical mobile app development lifecycle includes stages such as planning, design, development, testing, deployment, and maintenance. It often follows an iterative process with continuous updates and improvements."
+          }
+        ]
+      },
+      {
+        "category": "ui-ux",
+        "questions": [
+          {
+            "q": "What is UI/UX design?",
+            "a": "UI (User Interface) design focuses on the visual elements of a digital product, while UX (User Experience) design deals with the overall feel and functionality of the product. Together, they aim to create products that are both visually appealing and easy to use."
+          },
+          {
+            "q": "What's the difference between UI and UX design?",
+            "a": "UI design focuses on the look and layout of a product's interface, including colors, typography, and visual elements. UX design is broader, encompassing the entire user journey and how users interact with the product."
+          },
+          {
+            "q": "What tools do UI/UX designers commonly use?",
+            "a": "Common tools for UI/UX design include Sketch, Figma, Adobe XD, InVision, and Protopie for design and prototyping. Research and testing tools might include UserTesting, Hotjar, and Optimal Workshop."
+          },
+          {
+            "q": "What is a user persona?",
+            "a": "A user persona is a fictional representation of your ideal user or customer. It's based on user research and includes details about the persona's background, goals, challenges, and behaviors. Personas help guide design decisions by keeping the focus on the end-user."
+          },
+          {
+            "q": "What is the importance of user testing in UI/UX design?",
+            "a": "User testing is crucial in UI/UX design as it provides direct feedback from actual users. It helps identify usability issues, validate design decisions, and ensure that the product meets user needs and expectations."
+          }
+        ]
+      },
+      {
+        "category": "copywriting",
+        "questions": [
+          {
+            "q": "What is copywriting?",
+            "a": "Copywriting is the act of writing text for the purpose of advertising or other forms of marketing. The product, called copy, is written content that aims to increase brand awareness and ultimately persuade a person or group to take a particular action."
+          },
+          {
+            "q": "What's the difference between copywriting and content writing?",
+            "a": "While both involve writing, copywriting is specifically aimed at persuasion and driving action (like making a purchase), while content writing is more focused on informing, educating, or entertaining the reader."
+          },
+          {
+            "q": "What are some key elements of effective copywriting?",
+            "a": "Key elements of effective copywriting include understanding the target audience, crafting compelling headlines, focusing on benefits rather than features, using persuasive language, and including a clear call-to-action."
+          },
+          {
+            "q": "How important is SEO in copywriting?",
+            "a": "SEO (Search Engine Optimization) is very important in copywriting, especially for digital content. It helps ensure that your copy reaches your target audience by making it more visible in search engine results. This involves using relevant keywords, creating quality content, and following SEO best practices."
+          },
+          {
+            "q": "What is a call-to-action (CTA) in copywriting?",
+            "a": "A call-to-action (CTA) is a prompt in your copy that tells the reader what to do next. It's usually a command verb like 'Buy Now,' 'Sign Up,' or 'Learn More.' An effective CTA is clear, compelling, and creates a sense of urgency."
+          }
+        ]
+      }
+    ]
   },
   "contact": {
     "title": "Get in Touch",
@@ -96,7 +233,16 @@
       "name": "Full Name",
       "email": "Email Address",
       "company": "Company/Organization",
-      "inquiry": "Inquiry Type",
+      "phone_number": "Phone Number",
+      "role": "role",
+      "inquiry": {
+        "title": "Inquiry Type",
+        "sales": "Sales Inquiry",
+        "support": "Technical Support",
+        "partnership": "Partnership",
+        "demo": "Request Demo",
+        "other": "Other"
+      },
       "message": "Message",
       "send": "Send Message",
       "sending": "Sending...",
