@@ -111,7 +111,7 @@ const metadataConfig: Record<Locale, Metadata> = {
 	en: {
 		title: "E Shark - LMS Platform for Educators | Sell Online Courses",
 		description:
-			"E Shark LMS helps teachers, instructors, and schools create, manage, and sell online courses. AI-powered tools, student assessments, and full course management.",
+			"E Shark helps teachers, instructors, and schools create, manage, and sell online courses. AI-powered tools, student assessments, and full course management.",
 		keywords:
 			"LMS for teachers, online teaching platform, sell courses online, best LMS 2025, e-learning for educators, student management system, course creation tools",
 		authors: [{ name: "E Shark Team" }],
@@ -178,13 +178,13 @@ const metadataConfig: Record<Locale, Metadata> = {
 			siteName: "E Shark",
 			title: "E Shark - LMS Platform for Educators",
 			description:
-				"Create and sell online courses with E Shark LMS. Student management, AI tools, and easy monetization.",
+				"Create and sell online courses with E Shark. Student management, AI tools, and easy monetization.",
 			images: [
 				{
 					url: `/images/og-eshark-3.jpeg`,
 					width: 1200,
 					height: 630,
-					alt: "E Shark LMS Platform",
+					alt: "E Shark Platform",
 				},
 			],
 		},
@@ -192,7 +192,7 @@ const metadataConfig: Record<Locale, Metadata> = {
 			card: "summary_large_image",
 			title: "E Shark - LMS Platform for Educators",
 			description:
-				"Transform your teaching into a profitable business with E Shark LMS",
+				"Transform your teaching into a profitable business with E Shark",
 			creator: "@eshark",
 			images: ["/og-image.jpg"],
 		},
@@ -202,7 +202,7 @@ const metadataConfig: Record<Locale, Metadata> = {
 	ar: {
 		title: "E Shark - منصة تعليمية للمعلمين | بيع الدورات عبر الإنترنت",
 		description:
-			"منصة E Shark LMS تساعد المعلمين والمدربين والمدارس على إنشاء وإدارة وبيع الدورات التعليمية عبر الإنترنت. أدوات مدعومة بالذكاء الاصطناعي، اختبارات الطلاب، وإدارة شاملة.",
+			"منصة E Shark تساعد المعلمين والمدربين والمدارس على إنشاء وإدارة وبيع الدورات التعليمية عبر الإنترنت. أدوات مدعومة بالذكاء الاصطناعي، اختبارات الطلاب، وإدارة شاملة.",
 		keywords:
 			"منصة LMS للمعلمين, إنشاء الدورات التعليمية, بيع الدورات عبر الإنترنت, أفضل LMS 2025, التعليم الإلكتروني, نظام إدارة الطلاب, أدوات إنشاء الدورات",
 		authors: [{ name: "فريق E Shark" }],
@@ -220,20 +220,20 @@ const metadataConfig: Record<Locale, Metadata> = {
 			siteName: "E Shark",
 			title: "E Shark - منصة تعليمية للمعلمين",
 			description:
-				"قم بإنشاء وبيع الدورات التعليمية عبر الإنترنت باستخدام منصة E Shark LMS. إدارة الطلاب، أدوات الذكاء الاصطناعي، وتحقيق الأرباح بسهولة.",
+				"قم بإنشاء وبيع الدورات التعليمية عبر الإنترنت باستخدام منصة E Shark. إدارة الطلاب، أدوات الذكاء الاصطناعي، وتحقيق الأرباح بسهولة.",
 			images: [
 				{
 					url: `/images/og-eshark-3.jpeg`,
 					width: 1200,
 					height: 630,
-					alt: "منصة E Shark LMS",
+					alt: "منصة E Shark",
 				},
 			],
 		},
 		twitter: {
 			card: "summary_large_image",
 			title: "E Shark - منصة تعليمية للمعلمين",
-			description: "حوّل التعليم إلى عمل مربح باستخدام E Shark LMS",
+			description: "حوّل التعليم إلى عمل مربح باستخدام E Shark",
 			creator: "@eshark",
 			images: ["/og-image.jpg"],
 		},

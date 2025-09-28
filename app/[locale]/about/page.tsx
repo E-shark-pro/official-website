@@ -15,7 +15,7 @@ export async function generateMetadata({
 			slug: "about",
 			title: "About E Shark - LMS for Teachers & Educators",
 			description:
-				"Learn more about E Shark LMS, the platform built for teachers, instructors, and schools to create and sell online courses.",
+				"Learn more about E Shark, the platform built for teachers, instructors, and schools to create and sell online courses.",
 			keywords: "about E Shark, LMS for teachers, e-learning platform",
 		});
 	} else {
@@ -23,7 +23,7 @@ export async function generateMetadata({
 			slug: "about",
 			title: "عن E Shark - منصة LMS للمعلمين والمدارس",
 			description:
-				"تعرف على المزيد عن منصة E Shark LMS المصممة لمساعدة المعلمين والمدارس على إنشاء وبيع الدورات التعليمية عبر الإنترنت.",
+				"تعرف على المزيد عن منصة E Shark المصممة لمساعدة المعلمين والمدارس على إنشاء وبيع الدورات التعليمية عبر الإنترنت.",
 			keywords: "عن E Shark, LMS للمعلمين, منصة التعليم الإلكتروني",
 		});
 	}

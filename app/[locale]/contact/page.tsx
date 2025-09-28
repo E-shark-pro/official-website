@@ -14,7 +14,7 @@ export async function generateMetadata({
 			slug: "contact",
 			title: "Contact E Shark - Get Support & Inquiries",
 			description:
-				"Contact E Shark LMS for support, partnership opportunities, or general inquiries. Our team is here to help educators and institutions succeed.",
+				"Contact E Shark for support, partnership opportunities, or general inquiries. Our team is here to help educators and institutions succeed.",
 			keywords:
 				"contact E Shark, LMS support, educator support, LMS inquiries, e-learning platform help",
 		});
@@ -23,7 +23,7 @@ export async function generateMetadata({
 			slug: "contact",
 			title: "اتصل بـ E Shark - الدعم والاستفسارات",
 			description:
-				"تواصل مع فريق E Shark LMS للحصول على الدعم، فرص الشراكة، أو الاستفسارات العامة. نحن هنا لمساعدة المعلمين والمؤسسات التعليمية على النجاح.",
+				"تواصل مع فريق E Shark للحصول على الدعم، فرص الشراكة، أو الاستفسارات العامة. نحن هنا لمساعدة المعلمين والمؤسسات التعليمية على النجاح.",
 			keywords:
 				"اتصل بـ E Shark, دعم LMS, دعم المعلمين, استفسارات LMS, منصة التعليم الإلكتروني",
 		});
